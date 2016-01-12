@@ -1,0 +1,10 @@
+[WebPreview]
+linuxPrefix = "mono"
+command = "packages/FAKE/tools/FAKE.exe"
+host = "localhost"
+port = 8083
+script = "build.fsx"
+build = "KeepRunning"
+startString = "listener started"
+parameters = []
+startingPage = "index.html"
